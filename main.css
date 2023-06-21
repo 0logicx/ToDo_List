@@ -22,10 +22,53 @@ padding: 0;
     position: absolute;
     width: 360px;
     height: 64px;
-    border:3px solid;
     margin-left: 420px;
     top: 206px;
     background-color: rgba(0, 0, 0, 0.25);
-    border-radius: 4px;
+    border-radius: 12px;
+    
+}
+
+.gamburger_up {
+    position: absolute;
+    padding-left: 15px;
+    padding-top: 10px;
+    font-size: 32px;
+    color: rgba(0, 0, 0, 0.25);
+    
+}
+
+.arrow_down {
+    width: 15px;
+
+height: 15px;
+
+border-top: 2px solid rgba(0, 0, 0, 0.25) !important;
+
+border-right: 2px solid rgba(0, 0, 0, 0.25) !important;
+
+margin: 16px 0 0 327px;
+
+transform: rotate(135deg);
+
+display: inline-block;
+color: rgba(0, 0, 0, 0.25);
+}
+
+.navbar_mid {
+    position: absolute;
+    width: 360px;
+    height: 324px;
+    margin-left: 420px;
+    top: 285px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+}
+
+.new_do {
+    text-decoration: none;
+    border: #FFFFFF;
+    text-align: center;
+    border: #FFFFFF;
     
 }
