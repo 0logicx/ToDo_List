@@ -65,10 +65,30 @@ color: rgba(0, 0, 0, 0.25);
     border-radius: 12px;
 }
 
+ /* Стилизация нижней панели с добавлением задачи */
+
+.navbar_down {
+position: absolute;
+width: 360px;
+height: 64px;
+top: 630px;
+margin-left: 420px;
+background-color: #FFFFFF;
+border-radius: 12px;
+}
+
 .new_do {
-    text-decoration: none;
+    display: flex;
     border: #FFFFFF;
     text-align: center;
     border: #FFFFFF;
-    
+}
+
+
+.new_do input {
+    font-size: 18px;
+    text-align: center;
+    margin-right: 16px;
+    padding: 8px 16px;
+    flex-grow: 1;
 }
