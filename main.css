@@ -59,8 +59,8 @@ color: rgba(0, 0, 0, 0.25);
 
 .navbar_mid {
     position: absolute;
-    width: 360px;
-    height: 324px;
+    width: 400px;
+    height: 500px;
     margin-left: 420px;
     top: 285px;
     background-color: #FFFFFF;
@@ -79,7 +79,10 @@ color: rgba(0, 0, 0, 0.25);
     text-align: center;
     margin-right: 16px;
     padding: 8px 30px;
-    height: var(--size)
+    height: var(--size);
+    border-radius: 8px;
+    flex-grow: 1;
+    margin-left: 5px;
 }
 
 .todo_addtask {
@@ -87,6 +90,12 @@ color: rgba(0, 0, 0, 0.25);
     border: 1px solid black;
     width: 45px;
     line-height: 45px;
+    border-radius: 45px;
+    font-size: 32;
+    font-weight: 200;
+    background-color: red;
+    color: white;
+    cursor: pointer;
 }
 
 .navbar_down {
@@ -97,4 +106,13 @@ top: 630px;
 margin-left: 420px;
 background-color: #FFFFFF;
 border-radius: 12px;
+}
+
+.todotask {
+}
+.todo__checkbox {
+}
+.todotask_title {
+}
+.todotask__del {
 }
