@@ -1,118 +1,84 @@
 * {
-margin: 0;
-padding: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.img_main {
-    background-image: url('img/background.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 1200px;
+.container {
+
+    width: 1440px;
+    height: 1024px;
+    background: #2C2C2C;
 }
-
-.img_logo {
-    position: absolute;
-    margin-left: 557px;
-    top: 60px;
-    
-}
-
-.navbar_up {
-    position: absolute;
-    width: 360px;
-    height: 64px;
-    margin-left: 420px;
-    top: 206px;
-    background-color: rgba(0, 0, 0, 0.25);
-    border-radius: 12px;
-    
-}
-
-.gamburger_up {
-    position: absolute;
-    padding-left: 15px;
-    padding-top: 10px;
-    font-size: 32px;
-    color: rgba(0, 0, 0, 0.25);
-    
-}
-
-.arrow_down {
-    width: 15px;
-
-height: 15px;
-
-border-top: 2px solid rgba(0, 0, 0, 0.25) !important;
-
-border-right: 2px solid rgba(0, 0, 0, 0.25) !important;
-
-margin: 16px 0 0 327px;
-
-transform: rotate(135deg);
-
-display: inline-block;
-color: rgba(0, 0, 0, 0.25);
-}
-
-/* Стилизация добавления и содержания задач */
-
-.navbar_mid {
-    position: absolute;
-    width: 400px;
-    height: 500px;
-    margin-left: 420px;
-    top: 285px;
-    background-color: #FFFFFF;
-    border-radius: 12px;
-}
-
-
-.new_do {
+.navbar__panel {
     display: flex;
-    margin: 16px 0 32px;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.navbar__up {
+    display: flex;
+    margin-top: 30px;
+    color: var(--light, #FFF);
+    font-size: 64px;
+    font-family: Racing Sans One;
+
+}
+
+.img__left {
+    margin-right: 24px;
+    position: relative;
+    top: -20px;
+}
+
+.img__right {
+    margin-left: 24px;
+    position: relative;
+    top: -20px;
+}
+
+.line__3 {
+    margin-top: 18px;
 }
 
 
-.new_do input {
-    font-size: 18px;
-    text-align: center;
-    margin-right: 16px;
-    padding: 8px 30px;
-    height: var(--size);
-    border-radius: 8px;
-    flex-grow: 1;
+.add__task {
+    display: flex;
+    margin-top: 50px;
+}
+.add__task input {
+    width: 800px;
+    margin-right: 50px;
+    height: 50px;
+    border-radius: 20px;
+    background: #D9D9D9;
+}
+
+.navbar__down {
+    display: flex;
+    margin-top: 50px;
+    border-radius: 10px;
+    background: #222;
+}
+.list__task {
+    display: flex;
+    width: 800px;
+    height: 38px;
+    flex-shrink: 0;
+    
+}
+.list__checkbox {
     margin-left: 5px;
+    position: relative;
+    top: 8px;
 }
-
-.todo_addtask {
-    text-align: center;
-    border: 1px solid black;
-    width: 45px;
-    line-height: 45px;
-    border-radius: 45px;
-    font-size: 32;
-    font-weight: 200;
-    background-color: red;
-    color: white;
-    cursor: pointer;
+.list__text__task {
+    margin-left: 18px;
+    position: relative;
+    top: 8px;
 }
-
-.navbar_down {
-position: absolute;
-width: 360px;
-height: 64px;
-top: 630px;
-margin-left: 420px;
-background-color: #FFFFFF;
-border-radius: 12px;
-}
-
-.todotask {
-}
-.todo__checkbox {
-}
-.todotask_title {
-}
-.todotask__del {
+.img__del__task {
+    margin-left: auto;
+    margin-right: 5px;
 }

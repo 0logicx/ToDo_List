@@ -3,38 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <link rel="stylesheet" href="main.css">
-    <title>Todo list</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="main">
-        <div class="img_main"><img src="img/background.png" alt="backgrounimg"></div>
-        <div class="center_logo">
-            <div class="img_logo"><img src="img/Avatar.png" alt="Avatar"></div>
-        </div>
-        <div class="todo_list">
-            <div class="navbar_up">
-                <span class="gamburger_up">☰</span>
-                <span class="arrow_down"></span>
-            </div>
-            <div class="navbar_mid">
-                <div class="new_do">
-                    <input type="text" placeholder="Купить цветы">
-                    <div class="todo_addtask">+</div>
+    <div class="container">
+        <div class="navbar__panel">
+            <div class="navbar__up">
+                <div class="wear">
+                    
                 </div>
-                <div class="todo_list">
-                    <div class="todotask">
-                        <label class="todo__checkbox">
-                            <input type="checkbox">
-                        </label>
-                        <div class="todotask_title">Lorem ips?</div>
-                        <div class="todotask__del">-</div>
+                <div class="img__left">
+                    <img src="img/Line 2.png" alt="">
+                </div>
+                <div class="name__main">
+                    <p>To-DO NOW</p>
+                </div>
+                <div class="img__right">
+                    <img src="img/Line 2.png" alt="">
+                </div>
+            </div>
+            <div class="white__line">
+                <img src="img/Divider.png" alt="">
+            </div>
+            <div class="navbar__middle">
+                <div class="add__task">
+                    <label class="input">
+                        <input type="text">
+                    </label>
+                    <div class="button__add">
+                        <button>Add</button>
                     </div>
                 </div>
             </div>
-            <div class="navbar_down">
+            <div class="line__3">
+                <img src="img/Line 3.png" alt="">
             </div>
+            <div class="navbar__down">
+                <div class="list__task">
+                    <label class="list__checkbox">
+                        <input type="checkbox">
+                    </label>
+                    <div class="list__text__task">
+                        Вам поставлена новая задача
+                    </div>
+                    <div class="img__del__task">
+                        <img src="img/Group 728.png" alt="Удалить задачу">
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
+
+<script src="index.js"></script>
 </body>
 </html>
