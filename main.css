@@ -60,12 +60,14 @@
     margin-top: 50px;
     border-radius: 10px;
     background: #222;
+    flex-direction: column;
 }
 .list__task {
     display: flex;
     width: 800px;
     height: 38px;
     flex-shrink: 0;
+    margin-top: 8px;
     
 }
 .list__checkbox {
@@ -76,9 +78,19 @@
 .list__text__task {
     margin-left: 18px;
     position: relative;
-    top: 8px;
+    top: 8px;   
+    color: white;
 }
 .img__del__task {
     margin-left: auto;
     margin-right: 5px;
+    
+}
+
+.group728 {
+    background-image: url(img/Group\ 728.png);
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+    border-radius: 8px;
 }
