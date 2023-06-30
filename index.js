@@ -1,6 +1,6 @@
 // Поиск элементов на странице
 const button__add = document.querySelector('.button__add')
-const input = document.querySelector('.input')
+const taskinput = document.querySelector('#taskinput')
 const add__task = document.querySelector('.add__task')
 const form = document.querySelector('.form')
 
@@ -8,11 +8,12 @@ const form = document.querySelector('.form')
 
 
 
-form.addEventListener('submit', e => {
+form.addEventListener('submit', function (e) {
     e.preventDefault()
-    const text_from_input = input.value;
+
+    const textinput = taskinput.value
     
-    console.log('2132132132')
+    console.log(textinput)
     
 })
 
