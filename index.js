@@ -14,6 +14,9 @@ form.addEventListener('submit', addTask);
 // Функция Удаления задачи
 navbar__down.addEventListener('click', deleteTask);
 
+// Функция Зачеркивания выполненных задач
+navbar__down.addEventListener('click', doneTask)
+
 // Функции
 
 function addTask(e) {
@@ -29,9 +32,6 @@ function addTask(e) {
     // Добавление задачи в туду лист
     
     const taskHTML = `<div class="list__task">
-    <label class="list__checkbox">
-        <input type="checkbox">
-    </label>
     <div class="list__text__task">
         ${textinput}
     </div>
@@ -75,4 +75,13 @@ function deleteTask(e) {
         parentNode.remove()
     }
 
+}
+
+function doneTask(e) {
+    if(e.target.dataset.action === 'done') {
+        const parentNode = e.target.closest('.list__task')
+        const taskTitle = parentNode.querySelector('.list__text__task')
+        taskTitle.classList.toggle('decoration__done')
+        console.log(taskTitle)
+    }
 }

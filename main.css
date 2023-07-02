@@ -102,3 +102,9 @@
     margin-left: auto;
     flex-direction: row;
 }
+
+/* Класс для зачеркивания текста */
+.decoration__done {
+    text-decoration-color: red;
+    text-decoration-line: line-through;
+}
