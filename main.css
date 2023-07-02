@@ -81,16 +81,24 @@
     top: 8px;   
     color: white;
 }
-.img__del__task {
+.delete__task {
     margin-left: auto;
     margin-right: 5px;
+    color: red;
+    cursor: pointer;
+
     
 }
 
-.group728 {
-    background-image: url(img/Group\ 728.png);
-    width: 32px;
-    height: 32px;
-    flex-shrink: 0;
-    border-radius: 8px;
+.done__task {
+    margin-left: auto;
+    margin-right: 5px;
+    color: green;
+    cursor: pointer;
+}
+
+.task__del__done {
+    display: flex;
+    margin-left: auto;
+    flex-direction: row;
 }
